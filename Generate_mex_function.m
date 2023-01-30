@@ -3,7 +3,7 @@
 
 %% Generates mex file of the model function
 
-cd('Generate_mex')
+cd('Generate_mex_functions')
 mex_path = pwd;
 addpath(mex_path)
 tcut = 5000; % apply for transients
