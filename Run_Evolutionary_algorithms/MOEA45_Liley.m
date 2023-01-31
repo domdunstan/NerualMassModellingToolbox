@@ -4,8 +4,8 @@ function MOEA45_Liley(M,run_number,population_size)
 % for details.
 
 % Load data
-load('EEG_data_ctl.mat')
-data = EEG_data_ctl(M,:)-mean(EEG_data_ctl(M,:));
+load('Control_EEG_data.mat')
+data = Control_EEG_data(M,:)-mean(Control_EEG_data(M,:));
 data = zscore(data);
 data = filter_b_f(data, 2, 256,'high',4);% 2 Hz high pass filter
 data = zscore(data);
