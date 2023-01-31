@@ -3,8 +3,8 @@ function [fit1,a5,a6,d4,eegz4] = fitness_calc(A1, numreps,subject)
 
 Liley_params;
 % Load data
-load('EEG_data_ctl.mat')
-data = EEG_data_ctl(subject,:)-mean(EEG_data_ctl(subject,:));
+ load('Control_EEG_data.mat')
+ data = Control_EEG_data(subject,:)-mean(Control_EEG_data(subject,:));
 data = zscore(data);
 data = filter_b_f(data, 2, 256,'high',4);% 2 Hz high pass filter
 data = zscore(data);
