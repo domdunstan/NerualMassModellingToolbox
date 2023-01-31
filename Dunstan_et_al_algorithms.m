@@ -7,8 +7,6 @@
 % Dominic M. Dunstan*, Mark P. Richardson, Eugenio Abela, Ozgur E. Akman,     %             
 % Marc Goodfellow                                                             %
 %                                                                             %
-% We note that pseudodata is used throughout this repository. See details     %
-% in the manuscipt for access to the original EEG data.                       %
 %                                                                             %
 % This software uses a number of external toolboxes. We are grateful to the   %
 % authors of these toolboxes. In each case, the licenses are stated within    %

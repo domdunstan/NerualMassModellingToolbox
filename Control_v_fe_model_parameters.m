@@ -140,7 +140,7 @@ h1 = plot(x,kk, 'color',[0 0.4470 0.7410],'Linewidth',2);
 h2 = plot(x,kk2, 'color',[0.8500 0.3250 0.0980],'Linewidth',2);
 
 height = max(max(kk,kk2));
-xlim([xlb,xlb+(xub-xlb)*(1/3)])
+xlim([xlb,xlb+(xub-xlb)*0.2])
 
 
 ylim([0,height])

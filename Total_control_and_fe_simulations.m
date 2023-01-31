@@ -35,9 +35,9 @@ hvg_fe = squeeze(mean(hvg_fe_temp2,2));
 
 %% caluclate data metrics
 % control
-load('EEG_data_ctl.mat')
+load('Control_EEG_data.mat')
 for n=1:subjects
-data = EEG_data_ctl(n,:)-mean(EEG_data_ctl(n,:));
+data = Control_EEG_data(n,:)-mean(Control_EEG_data(n,:));
 data = zscore(data);
 data = filter_b_f(data, 2, 256,'high',4);% 2 Hz high pass filter
 data = zscore(data);

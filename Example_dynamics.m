@@ -26,8 +26,8 @@ rng(6) % define a random number generator to reproduce same time series
 %% First for subject 1
 
 % EEG data
-load('EEG_data_ctl.mat')
-data = EEG_data_ctl(M1,:)-mean(EEG_data_ctl(M1,:));
+load('Control_EEG_data.mat')
+data = Control_EEG_data(M1,:)-mean(Control_EEG_data(M1,:));
 data = zscore(data);
 data = filter_b_f(data, 2, 256,'high',4);% 2 Hz high pass filter
 data = zscore(data);
@@ -191,10 +191,11 @@ xlim([-4,4])
 
 %% Then for subject 2
 % Define a simulation number for each algorithm
+rng(6);
 sim1 = 13; sim2 = 5; sim3 = 4; sim4 = 3;
 
 % Load EEG data
-data = EEG_data_ctl(M2,:)-mean(EEG_data_ctl(M2,:));
+data = Control_EEG_data(M2,:)-mean(Control_EEG_data(M2,:));
 data = zscore(data);
 data = filter_b_f(data, 2, 256,'high',4);% 2 Hz high pass filter
 data = zscore(data);

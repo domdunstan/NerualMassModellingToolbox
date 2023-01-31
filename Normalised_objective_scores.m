@@ -21,7 +21,7 @@ sims = 100;
 subjects = 20;
 
 % load data
-load('EEG_data_ctl.mat')
+load('Control_EEG_data.mat')
 
 %% PSD 2-20Hz
 psd_moga20 = Total_Simulations_moea20.psd1;
@@ -34,7 +34,7 @@ psd_temp4 = squeeze(psd_moga45(M,:,:));
 psd_temp2 = squeeze(psd_soga20(M,:,:));
 psd_temp3 = squeeze(psd_soga45(M,:,:));
 
-data = EEG_data_ctl(M,:)-mean(EEG_data_ctl(M,:));
+data = Control_EEG_data(M,:)-mean(Control_EEG_data(M,:));
 data = zscore(data);
 data = filter_b_f(data, 2, 256,'high',4);% 2 Hz high pass filter
 data = zscore(data);
@@ -72,7 +72,7 @@ psd_temp2 = squeeze(psd_soga20(M,:,:));
 psd_temp3 = squeeze(psd_soga45(M,:,:));
 
 
-data = EEG_data_ctl(M,:)-mean(EEG_data_ctl(M,:));
+data = Control_EEG_data(M,:)-mean(Control_EEG_data(M,:));
 data = zscore(data);
 data = filter_b_f(data, 2, 256,'high',4);% 2 Hz high pass filter
 data = zscore(data);

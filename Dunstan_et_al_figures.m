@@ -7,8 +7,6 @@
 % Dominic M. Dunstan*, Mark P. Richardson, Eugenio Abela, Ozgur E. Akman,     %             
 % Marc Goodfellow                                                             %
 %                                                                             %
-% We note that pseudodata is used throughout this repository. See details     %
-% in the manuscipt For access to the original EEG data.                       %
 %                                                                             %
 % Execution of this script recreates all results figures in the above         %
 % manuscipt. See the paper for details.                                       %

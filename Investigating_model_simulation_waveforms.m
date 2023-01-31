@@ -33,8 +33,8 @@ edges2 = linspace(-5,5,100);
 
 
 % Load EEG data
-load('EEG_data_ctl.mat')
-data = EEG_data_ctl(M,:)-mean(EEG_data_ctl(M,:));
+load('Control_EEG_data.mat')
+data = Control_EEG_data(M,:)-mean(Control_EEG_data(M,:));
 data = zscore(data);
 data = filter_b_f(data, 2, 256,'high',4);% 2 Hz high pass filter
 data = zscore(data);
@@ -193,6 +193,7 @@ h1.MarkerSize=5;
 end
 
 % Create Colorbar
+cmap = colormap('hot') ; %Create Colormap
 cbh = colorbar ; 
 cbh.Ticks = 0:0.2:1; 
 cbh.TickLabels = {'-1';'-0.6';'-0.2';'0.2';'0.6';'1'} ; 
