@@ -9,7 +9,7 @@ The repository comes in two parts.
 This software uses a number of external toolboxes. We are grateful to the 
 authors of these toolboxes. In each case, the licenses are stated within the corresponding header.
 
-See 'Dunstan_et_al_algorithms' for applying single and multiobjecitve evolutionary algorithms to data. See the Methods section in the manuscript for details.
+See 'Dunstan_et_al_algorithms' for applying single and multiobjecitve evolutionary algorithms to data. See the Methods section in the manuscript for details. We note that for speed of computation, MATLAB's mex interface is used to generate C functions directly from MATLAB. 
 
 See 'Dunstan_et_al_figures' for recreating all results figures from the paper.
 
