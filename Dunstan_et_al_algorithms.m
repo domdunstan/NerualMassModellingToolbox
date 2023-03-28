@@ -7,6 +7,7 @@
 % Dominic M. Dunstan*, Mark P. Richardson, Eugenio Abela, Ozgur E. Akman,     %             
 % Marc Goodfellow                                                             %
 %                                                                             %
+%  doi: https://doi.org/10.1371/journal.pcbi.1010985                          %
 %                                                                             %
 % This software uses a number of external toolboxes. We are grateful to the   %
 % authors of these toolboxes. In each case, the licenses are stated within    %
@@ -16,7 +17,7 @@
 % *d.dunstan@exeter.ac.uk                                                     %
 % %% %% %% %% %% %% %% %% %% %% %% %% %% %% %% %% %% %% %% %% %% %% %% %% % % %
 
-% Note, fitness function can be adjsted to simulate any mathematical model. Here we use the Liley model.
+% Note, fitness function can be adjsted to simulate any mathematical (neural mass) model. Here we use the Liley model.
 
 %% Generate mex function for model simulations
 % The capability to build MEX functions from matlab needs to be enabled for this to be compatable
