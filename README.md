@@ -1,5 +1,5 @@
 # NerualMassModellingToolbox
-This repository contains code to generate figures and run the algorithms described in Dunstan et al. (2023) "Global nonlinear approach for mapping parameters of neural mass models". 
+This repository contains code to generate figures and run the algorithms described in Dunstan et al. (2023) Global nonlinear approach for mapping parameters of neural mass models. doi: https://doi.org/10.1371/journal.pcbi.1010985. 
 
 The repository comes in two parts. 
 1. To provide a platform for the implementation of single and multi objective evolutionary algorithms on
