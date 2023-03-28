@@ -7,6 +7,7 @@
 % Dominic M. Dunstan*, Mark P. Richardson, Eugenio Abela, Ozgur E. Akman,     %             
 % Marc Goodfellow                                                             %
 %                                                                             %
+%  doi: https://doi.org/10.1371/journal.pcbi.1010985                          %
 %                                                                             %
 % Execution of this script recreates all results figures in the above         %
 % manuscipt. See the paper for details.                                       %
