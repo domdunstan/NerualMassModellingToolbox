@@ -67,7 +67,8 @@ set(gca,'TickDir','out');
 set(gca,'fontsize',FS1)
 set(gca,'ytick', []);
 ylabel('Z-scored time series')
-str1={'Data','SOEA20','SOEA45','MOEA20','MOEA45'};
+str1={'SOEA20','SOEA45','MOEA20','MOEA45'};
+
 h2 = legend(h1(end:-1:1), str1);
 h2.Location = 'northoutside';
 h2.FontSize=7;
